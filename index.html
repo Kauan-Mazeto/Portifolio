@@ -4,104 +4,143 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <script defer src="script.js"></script>
-    <title>Document</title>
+    <title>Portifólio</title>
 </head>
 <body>
-    <main>
-        <div class="intro-img">
-            <div class="titulo-paragrafo">
-                <h1 id="intro">Bem vindo ao meu portfólio!</h1>
-                <p class="introducao">Sou Kauan Gustavo Mazeto Rodrigues, estudante dedicado e apaixonado por tecnologia, design e inovação. Tenho buscado constantemente ampliar minhas habilidades em desenvolvimento de software, design digital e soluções criativas que unam funcionalidade e estética. Meu portfólio reúne projetos acadêmicos e pessoais que refletem meu interesse em aprender, evoluir e aplicar na prática o que estudo. Acredito que cada desafio é uma oportunidade de crescimento, por isso estou sempre aberto a novas experiências e a contribuir de forma colaborativa em equipes.</p>
+    <section class="secao-inicial" id="inicio">
+        <div class="descricao">
+            <h1 id="intro">Bem vindo ao meu portfólio!</h1>
+            <h1 class="eusou">Eu sou</h1>
+            <p class="descricao" id="typing"></p>
+            <p>Olá, meu nome é Kauan Mazeto, tenho 16 anos e atualmente estou me especializando em Front-End e Back-End.</p>
+            <p>Tenho grande interesse em evoluir na área de Banco de Dados, além de aprofundar meus estudos em desenvolvimento Back-End e criar interfaces modernas e eficientes no Front-End.</p>
+            <p>Sou motivado por desafios e estou sempre em busca de aprender novas tecnologias para entregar soluções criativas e de impacto.</p>
+        </div>
+        <img src="img/personagem-sentado.png" alt="">
+    </section>
+
+    <hr />
+
+    <section class="langs">
+        <h1 class="langs-title" id="langs-title">Linguagens/frameworks de Domínio</h1>
+
+        <div class="card-stack-container">
+
+            <div class="card-stack-origin">
+                <div class="card html-card">
+                    <img src="img/html.png" alt="">
+                    <p>Html</p>
+                </div>
+                <div class="card css-card">
+                    <img src="img/css.png" alt="">
+                    <p>CSS</p>
+                </div>
+                <div class="card js-card">
+                    <img src="img/js.png" alt="">
+                    <p>JavaScript</p>
+                </div>
+                <div class="card python-card">
+                    <img src="img/py.png" alt="">
+                    <p>Python</p>
+                </div>
+                <div class="card ts-card">
+                    <img src="img/ts.png" alt="">
+                    <p>TypeScript</p>
+                </div>
+                <div class="card angular-card">
+                    <img src="img/angular.png" alt="">
+                    <p>Angular</p>
+                </div>
+                <div class="card node-card">
+                    <img src="img/node.png" alt="">
+                    <p>Node.js</p>
+                </div>
+                <div class="card git-card">
+                    <img src="img/git.png" alt="">
+                    <p>Git</p>
+                </div>
+                </div>
             </div>
-            <img src="img/18-05-36-479_512.gif" alt="">
+                    
+            <div class="card-stack-destination"></div>
+
+            <div class="card-btn-container">
+                <button id="prevCardBtn">◀</button>
+                <button id="nextCardBtn">▶</button>
+            </div>
         </div>
-        <br />
-        <div id="Habilidades">
-            <h2 id="tecnicas">Habilidades Técnicas</h2>
-            <section>
-                <h3>Linguagens de Programação</h3>
-                <ul class="Linguagens">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>Python</li>
-                    <li>TypeScript</li>
-                </ul>
-                <h3 style="margin-top: 10%;">Ferramentas - Conhecimentos</h3>
-                <ul class="Linguagens">
-                    <li>Vs Code</li>
-                    <li>Figma</li>
-                    <li>Git</li>
-                    <li>Node.js</li>
-                    <li>Metodologia Scrum</li>
-                </ul>
-            </section>
-            <section class="educacao-cursos">
-                <h2 id="escolaridade">Educação</h2>
-                <ul class="Escolaridade">
-                    <li>Ensino Médio Técnico em Desenvolvimento de Sistemas</li>
-                    <li class="em-andamento">Leonardo da Vinci - <b>Em andamento</b></li>
-                </ul>
-                <h3 id="cursos">Cursos</h3>
-                <ul class="Cursos">
-                    <li>Aprender e Crescer - Sudotec</li>
-                    <li>Informática Intermediária - Sudotec</li>
-                    <li>Informática Avançada - Sudotec -<b class="em-andamento"> Em andamento</b></li>
-                </ul>
-                <h3 id="cursos">Linguas</h3>
-                <ul class="Cursos">
-                    <li>Inglês - EF -<b class="em-andamento">Em andamento</b></li>
-                    <li>Espanhol - Leonardo da Vinci -<b class="em-andamento"> Incompleto</b></li>
-                </ul>
-            </section>  
+    </section>
+
+    <hr />
+
+    <section class="projetos">
+        <div>
+            <h1 class="projetos-title" id="projetos-title">Projetos</h1>
+            <div class="projetos-container">
+                <div class="projeto">
+                    <img src="img/Super-trunfo.png" alt="">
+                    <h2>Super Trunfo</h2>
+                    <p>O Super Trunfo – Marvel e DC é um jogo de cartas inspirado no clássico Super Trunfo, desenvolvido em HTML e CSS. O projeto permite escolher entre os universos Marvel e DC, exibindo cartas de heróis com atributos estilizados de forma interativa e visualmente atraente.</p>
+                    <a href="https://Kauan-Mazeto.github.io/Super-Trunfo" target="_blank">Ver Projeto</a>
+                </div>
+                <div class="projeto">
+                    <img src="img/logo-spotifeio.png" alt="">
+                    <h2>Spotifeio</h2>
+                    <p>O Spotifeio é um projeto desenvolvido em Angular, que simula a interface do Spotify de forma prática e didática. Ele serve como estudo de front-end, explorando rotas, componentes e estilização para criar uma experiência semelhante ao aplicativo original.</p>
+                    <a href="https://github.com/Kauan-Mazeto/spotifeio" target="_blank">Ver Projeto</a>
+                </div>
+                <div class="projeto">
+                    <img src="img/nuvem.png" alt="">
+                    <h2>API Gestao Biblioteca</h2>
+                    <p>A API Gestao Biblioteca é uma API REST em Node.js com Express e Prisma, para gerenciar livros e usuários de uma biblioteca. Ela implementa autenticação básica e diferencia permissões entre usuários comuns e administradores.</p>
+                    <a href="https://github.com/Kauan-Mazeto/API-Gestao-Biblioteca" target="_blank">Ver Projeto</a>
+                </div>
+                <div class="projeto">
+                    <img src="img/baita-projeto.png" alt="">
+                    <h2>Baita Projeto</h2>
+                    <p>O Baita Projeto é uma aplicação web em HTML, CSS e JavaScript que funciona como uma vitrine interativa de carros de luxo. Ele exibe modelos com detalhes como ano e quilometragem, usando animações e navegação por abas para uma experiência visual atrativa.</p>
+                    <a href="https://Kauan-Mazeto.github.io/Baita-Projeto" target="_blank">Ver Projeto</a>
+                </div>
+                <div class="projeto">
+                    <img src="img/formulario.png" alt="">
+                    <h2>Ficha de Inscrição</h2>
+                    <p>Ficha de Inscrição é uma aplicação web em HTML, CSS e JavaScript que permite gerenciar formulários de inscrição. O projeto inclui páginas de login, dashboards e funcionalidades administrativas, servindo como prática de front-end interativo.</p>
+                    <a href="https://github.com/Kauan-Mazeto/Ficha_de_inscricao" target="_blank">Ver Projeto</a>
+                </div>
+            </div>
         </div>
-        <h2 class="projetos-titulo">Projetos</h2>
-        <div class="projetos">
+    </section>
 
 
-            <div class="projetos-card">
-                <div class="cima">
-                    <img src="img/Captura de tela 2025-08-22 220200.png" alt="imagem do projeto">
-                </div>
-                <div class="baixo">
-                    <h3>Super Trunfo – Marvel e DC</h3>
-                    <p>Versão digital do clássico jogo de cartas, trazendo heróis da Marvel e DC com atributos comparativos. Desenvolvido em HTML5 e CSS3, destaca-se pelo design moderno, interatividade e experiência visual envolvente.</p>
-                    <a href="https://kauan-mazeto.github.io/Super-Trunfo/index.html" target="_blank">Acessar Projeto</a>
-                </div>
-            </div>
-            <div class="projetos-card">
-                <div class="cima">
-                    <img src="img/Captura de tela 2025-08-22 221042.png" alt="imagem do projeto">
-                </div>
-                <div class="baixo">
-                    <h3>Baita Projeto</h3>
-                    <p>Site one-page responsivo que apresenta carros de luxo com navegação interativa. Desenvolvido com HTML5, CSS3 e JavaScript, destaca design moderno e usabilidade intuitiva.</p>
-                    <a href="https://kauan-mazeto.github.io/Baita-Projeto/" target="_blank">Acessar Projeto</a>
-                </div>
-            </div>
-            <div class="projetos-card">
-                <div class="cima">
-                    <img src="img/nuvem.png" alt="imagem do projeto" class="nuvem">
-                </div>
-                <div class="baixo">
-                    <h3>Rest API</h3>
-                    <p>API desenvolvida em Node.js com Express, estruturada para gerenciar rotas e endpoints de forma organizada.</p>
-                    <a href="https://github.com/Kauan-Mazeto/rest-api" target="_blank">Acessar Projeto</a>
-                </div>
+    <a class="voltar-topo" href="#inicio">◀</a>
+
+    <script defer src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/rough-notation/lib/rough-notation.iife.js"></script>
+</body>
+<footer>
+    <div class="footer-content">
+        <img src="img/18-05-36-479_512.gif" alt="Logo">
+        <div></div>
+        <div class="footer-section">
+            <h3>Contato</h3>
+            <p>Linkedin: Kauan Mazeto</p>
+            <p>Email: kauan.mazetorodrigues@gmail.com</p>
+            <p>Telefone: (46) 9 9929-7524</p>
+            <p>Local: Dois Vizinhos, PR</p>
+        </div>
+        
+        <div class="footer-section">
+            <h3>Redes Sociais</h3>
+            <div class="social-links">
+                <a href="https://github.com/Kauan-Mazeto" title="GitHub"><img src="img/github-logo.webp" alt="GitHub"></a>
             </div>
         </div>
         
-    </main>
-</body>
-<footer>
-    <p>© <span id="year">0000</span> - Kauan Gustavo Mazeto Rodrigues.</p>
-
-    <h3 id="contatos">Contatos</h3>
-    <div class="contatos">
-        <p>Email: <b>kauan.mazetorodrigues@gmail.com</b></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/kauan-mazeto-59940235a/" target="_blank">kauan-mazeto</a></p>
-        <p>GitHub: <a href="https://github.com/Kauan-Mazeto" target="_blank">Kauan-Mazeto</a></p>
+    </div>
+    
+    <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> Kauan Mazeto. Todos os direitos reservados.</p>
     </div>
 </footer>
 </html>
